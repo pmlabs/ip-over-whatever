@@ -1,0 +1,26 @@
+services:
+  box1:
+    build: .
+    hostname: box1
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    cap_add:
+      - NET_ADMIN
+    volumes: 
+      - ./src:/app
+    command: "/bin/bash"
+    tty: true
+    privileged: true
+
+  box2:
+    build: .
+    hostname: box2
+    devices:
+      - /dev/net/tun:/dev/net/tun
+    cap_add:
+      - NET_ADMIN
+    volumes: 
+      - ./src:/app
+    command: "/bin/bash"
+    tty: true
+    privileged: true
