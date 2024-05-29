@@ -44,7 +44,11 @@ This will basically create virtual audio cables which you can use like this:
 Does this work with speakers / microphone? Maybe, I didn't want to try since
 this sounds horrible.
 
-See also [annotated spectogram](ping_modulated_audio_spectogram_zommed_256_annot.png).
+See also:
+
+  * [annotated spectogram for a ping](ping_modulated_audio_spectogram_zommed_256_annot.png)
+  * [amplitude chart for a ping](ping_modulated_audio_amplitude.png)
+  * [WAV file with a few calibration packets and a ping or two](ping_modulated_audio.wav)
 
 FAQ:
 
